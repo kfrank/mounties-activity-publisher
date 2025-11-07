@@ -121,6 +121,13 @@ uv run pytest tests/test_firestore_operations.py -v
 ```
 mounties-activities-discord-publisher/
  src/
+ models.py              # Data models (Activity, Leader, Place)
+ parsers/               # HTML parsing (search results, activity details)
+ db/                    # Firestore operations
+ tasks/                 # Cloud Tasks client
+ functions/             # Cloud Function handlers
+ http_client.py         # HTTP client with User-Agent
+ discord_client.py      # Discord API client
  tests/                     # Comprehensive test suite (42 tests)
  main.py                    # Cloud Functions entry points
  requirements.txt           # Production dependencies
