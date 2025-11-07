@@ -118,6 +118,16 @@ uv run pytest tests/test_firestore_operations.py -v
 ## Project Structure
 
 
+```
+mounties-activities-discord-publisher/
+ src/
+ tests/                     # Comprehensive test suite (42 tests)
+ main.py                    # Cloud Functions entry points
+ requirements.txt           # Production dependencies
+ deploy.sh                  # Automated deployment script
+ queues.yaml                # Cloud Tasks configuration
+```
+
 ## Documentation
 
 Detailed documentation for each development phase:
